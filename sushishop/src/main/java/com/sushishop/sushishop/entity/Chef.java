@@ -15,14 +15,14 @@ public class Chef {
 
     public Chef(int num, Order order)
     {
-        this.num=num;
-        this.order=order;
+        this.num = num;
+        this.order = order;
         this.hasOrder = true;
     }
 
     public Chef(int num)
     {
-        this.num=num;
+        this.num = num;
         this.hasOrder = false;
     }
 
@@ -33,8 +33,8 @@ public class Chef {
 
     public void setOrder(Order order, LocalTime newTime)
     {
-        this.order=order;
-        this.createdAt=newTime;
+        this.order = order;
+        this.createdAt = newTime;
     }
 
     public LocalTime getTime()
@@ -49,7 +49,7 @@ public class Chef {
 
     public void setHasOrder(boolean b)
     {
-        this.hasOrder=b;
+        this.hasOrder = b;
     }
 }
 
