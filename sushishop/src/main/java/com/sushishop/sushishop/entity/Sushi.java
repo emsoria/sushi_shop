@@ -24,21 +24,21 @@ public class Sushi {
     {
         if(name == "California Roll")
         {
-            this.id=1;
-            this.name=name;
-            this.time=time;
+            this.id = 1;
+            this.name = name;
+            this.time = time;
         }
         else if(name == "Kamikaze Roll")
         {
-            this.id=2;
-            this.name=name;
-            this.time=time;
+            this.id = 2;
+            this.name = name;
+            this.time = time;
         }
         else if(name == "Dragon Eye")
         {
-            this.id=3;
-            this.name=name;
-            this.time=time;
+            this.id = 3;
+            this.name = name;
+            this.time = time;
         }
     }
 
