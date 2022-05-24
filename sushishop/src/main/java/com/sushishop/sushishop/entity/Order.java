@@ -40,10 +40,10 @@ public class Order {
 
     public Order(Sushi sushi)
     {
-        this.statusId=new Status("created").getId();
-        this.sushiId=sushi.getId();
-        this.sushi=sushi;
-        this.status=new Status("created");
+        this.statusId = new Status("created").getId();
+        this.sushiId = sushi.getId();
+        this.sushi = sushi;
+        this.status = new Status("created");
     }
 
     public void setStatus_id(int id)
