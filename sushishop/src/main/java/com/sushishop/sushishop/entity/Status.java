@@ -21,28 +21,28 @@ public class Status
     {
         if(name == "created")
         {
-            this.id=1;
-            this.name=name;
+            this.id = 1;
+            this.name = name;
         }
         else if(name == "in-progress")
         {
-            this.id=2;
-            this.name=name;
+            this.id = 2;
+            this.name = name;
         }
         else if(name == "paused")
         {
-            this.id=3;
-            this.name=name;
+            this.id = 3;
+            this.name = name;
         }
         else if(name == "finished")
         {
-            this.id=4;
-            this.name=name;
+            this.id = 4;
+            this.name = name;
         }
         else if(name == "cancelled")
         {
-            this.id=5;
-            this.name=name;
+            this.id = 5;
+            this.name = name;
         }
     }
 
@@ -55,32 +55,32 @@ public class Status
     {
         if(id == 1)
         {
-            this.id=1;
-            this.name="created";
+            this.id = 1;
+            this.name = "created";
             return this.name;
         }
-        else if(id ==2)
+        else if(id == 2)
         {
-            this.id=2;
-            this.name="in-progress";
+            this.id = 2;
+            this.name = "in-progress";
             return this.name;
         }
-        else if(id ==3)
+        else if(id == 3)
         {
-            this.id=3;
-            this.name="paused";
+            this.id = 3;
+            this.name = "paused";
             return this.name;
         }
-        else if(id ==4)
+        else if(id == 4)
         {
-            this.id=4;
-            this.name="finished";
+            this.id = 4;
+            this.name = "finished";
             return this.name;
         }
-        else if(id ==5)
+        else if(id == 5)
         {
-            this.id=5;
-            this.name="cancelled";
+            this.id = 5;
+            this.name = "cancelled";
             return this.name;
         }
         return this.name;
